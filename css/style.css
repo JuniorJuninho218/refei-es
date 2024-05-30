@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+  gap: 0px;
+  padding: 0px;
+}
+
+.header-container {
+  background-color: #3B0907;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.pesquisar {
+  display: flex;
+  background: #F6E4E2;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+
+.pesquisa-container {
+  justify-content: start;
+  margin: 0 100px;
+
+}
+
+.pesquisar input {
+  justify-content: start;
+  background: #F6E4E2;
+  width: 720px;
+  text-align: center;
+  border: none;
+  border-radius: 50px;
+}
+
+.pesquisar button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
